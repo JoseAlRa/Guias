@@ -4,7 +4,7 @@ https://github.com/linuxserver/docker-unifi-network-application
 
 esta es la configuración de funciono en portainer
 
-´´´
+```
 ---
 services:
   unifi-db:
@@ -43,7 +43,7 @@ services:
       - 6789:6789 #optional
       - 5514:5514/udp #optional
     restart: unless-stopped
-´´´
+
 
 
 el archivo init-mongo.js  su contenido es 
